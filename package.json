@@ -1,7 +1,7 @@
 {
   "name": "template-node-project",
   "version": "1.0.0",
-  "description": "Template NodeKJS Project",
+  "description": "Template NodeJS Project",
   "main": "src/index.js",
   "author": "Jorge Barnaby <jorge.barnaby@gmail.com>",
   "license": "MIT",
