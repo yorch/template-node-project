@@ -1,0 +1,31 @@
+{
+  "name": "template-node-project",
+  "version": "1.0.0",
+  "description": "Template NodeKJS Project",
+  "main": "src/index.js",
+  "author": "Jorge Barnaby <jorge.barnaby@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yon clean && babel src -d dist",
+    "start": "yon build && yon node -r dotenv/config dist/index.js",
+    "dev": "yon build && nodemon --watch src dist/index.js",
+    "clean": "rimraf ./dist"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "logging": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2",
+    "rimraf": "^3.0.0",
+    "yarn-or-npm": "^3.0.1"
+  }
+}
