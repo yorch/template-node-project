@@ -24,7 +24,7 @@
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-prettier": "3.1.4",
     "nodemon": "2.0.4",
-    "prettier": "2.1.1",
+    "prettier": "2.1.2",
     "rimraf": "3.0.2",
     "yarn-or-npm": "3.0.1"
   }
