@@ -27,3 +27,13 @@ data/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Yarn non zero installs
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
