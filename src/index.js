@@ -1,5 +1,5 @@
-import { apiKey } from './config';
+import { config } from './config';
 
 (async () => {
-    console.log(`API Key is ${apiKey}`);
+    console.log(`API Key is ${config.apiKey}`);
 })();
