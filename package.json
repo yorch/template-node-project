@@ -28,5 +28,6 @@
     "prettier": "2.5.1",
     "rimraf": "3.0.2",
     "yarn-or-npm": "3.0.1"
-  }
+  },
+  "packageManager": "yarn@3.2.0"
 }
