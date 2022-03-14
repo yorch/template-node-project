@@ -1,7 +1,5 @@
 # Template NodeJS Project
 
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=yorch/template-node-project)](https://dependabot.com)
-
 This is a bootstrap template for NodeJS projects that will run directly on NodeJS v10+.
 
 It uses Babel v7 to support the latest JS features.

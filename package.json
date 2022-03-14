@@ -9,7 +9,8 @@
     "build": "yon clean && babel src -d dist",
     "start": "yon build && yon node -r dotenv/config dist/index.js",
     "dev": "yon build && nodemon --watch src dist/index.js",
-    "clean": "rimraf ./dist"
+    "clean": "rimraf ./dist",
+    "format": "prettier -w ."
   },
   "dependencies": {
     "dotenv": "16.0.0",
