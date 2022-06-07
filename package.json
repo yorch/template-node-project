@@ -29,7 +29,7 @@
     "rimraf": "3.0.2",
     "yarn-or-npm": "3.0.1"
   },
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.2.1",
   "engines": {
     "node": ">=16.0.0"
   }
