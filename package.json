@@ -17,15 +17,15 @@
     "logging": "3.3.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.17.10",
-    "@babel/core": "7.18.2",
-    "@babel/preset-env": "7.18.2",
+    "@babel/cli": "7.18.6",
+    "@babel/core": "7.18.6",
+    "@babel/preset-env": "7.18.6",
     "babel-eslint": "10.1.0",
-    "eslint": "8.17.0",
+    "eslint": "8.18.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "nodemon": "2.0.16",
-    "prettier": "2.6.2",
+    "eslint-plugin-prettier": "4.2.1",
+    "nodemon": "2.0.18",
+    "prettier": "2.7.1",
     "rimraf": "3.0.2",
     "yarn-or-npm": "3.0.1"
   },
