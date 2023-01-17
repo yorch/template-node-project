@@ -3693,7 +3693,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:3.0.2, rimraf@npm:^3.0.2":
+"rimraf@npm:4.1.0":
+  version: 4.1.0
+  resolution: "rimraf@npm:4.1.0"
+  bin:
+    rimraf: dist/cjs/src/bin.js
+  checksum: da4849802779a8c8cbe3aa1fbdf817b1ec41f7e95fb82074de3129e0030cd4e6e1f512a732344f0062c1cea59569c8113c78c3f50267cc469e8e9bfbe7622cb5
+  languageName: node
+  linkType: hard
+
+"rimraf@npm:^3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
@@ -3961,7 +3970,7 @@ __metadata:
     logging: 3.3.0
     nodemon: 2.0.20
     prettier: 2.8.1
-    rimraf: 3.0.2
+    rimraf: 4.1.0
     yarn-or-npm: 3.0.1
   languageName: unknown
   linkType: soft
