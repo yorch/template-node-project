@@ -22,15 +22,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/cli@npm:7.22.10":
-  version: 7.22.10
-  resolution: "@babel/cli@npm:7.22.10"
+"@babel/cli@npm:7.23.0":
+  version: 7.23.0
+  resolution: "@babel/cli@npm:7.23.0"
   dependencies:
     "@jridgewell/trace-mapping": ^0.3.17
     "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents.3
     chokidar: ^3.4.0
     commander: ^4.0.1
-    convert-source-map: ^1.1.0
+    convert-source-map: ^2.0.0
     fs-readdir-recursive: ^1.1.0
     glob: ^7.2.0
     make-dir: ^2.1.0
@@ -45,7 +45,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: f6cbd237d62f196a3835f7eec07b3fea1a4ba3b7acf61616d6d22ce2c2653e29f869a254bf3de6d0fef65f577b3c9a6137aac89887679889ca9a56f0d2e07f18
+  checksum: beeb189560bf9c4ea951ef637eefa5214654678fb09c4aaa6695921037059c1e1553c610fe95fbd19a9cdfd9f5598a812fc13df40a6b9a9ea899e43fc6c42052
   languageName: node
   linkType: hard
 
@@ -2324,15 +2324,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"convert-source-map@npm:^1.1.0":
-  version: 1.8.0
-  resolution: "convert-source-map@npm:1.8.0"
-  dependencies:
-    safe-buffer: ~5.1.1
-  checksum: 985d974a2d33e1a2543ada51c93e1ba2f73eaed608dc39f229afc78f71dcc4c8b7d7c684aa647e3c6a3a204027444d69e53e169ce94e8d1fa8d7dee80c9c8fed
-  languageName: node
-  linkType: hard
-
 "convert-source-map@npm:^2.0.0":
   version: 2.0.0
   resolution: "convert-source-map@npm:2.0.0"
@@ -4245,13 +4236,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safe-buffer@npm:~5.1.1":
-  version: 5.1.2
-  resolution: "safe-buffer@npm:5.1.2"
-  checksum: f2f1f7943ca44a594893a852894055cf619c1fbcb611237fc39e461ae751187e7baf4dc391a72125e0ac4fb2d8c5c0b3c71529622e6a58f46b960211e704903c
-  languageName: node
-  linkType: hard
-
 "safe-buffer@npm:~5.2.0":
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
@@ -4535,7 +4519,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "template-node-project@workspace:."
   dependencies:
-    "@babel/cli": 7.22.10
+    "@babel/cli": 7.23.0
     "@babel/core": 7.23.0
     "@babel/preset-env": 7.22.10
     babel-eslint: 10.1.0
