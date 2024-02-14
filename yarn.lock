@@ -2447,10 +2447,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.3.1":
-  version: 16.3.1
-  resolution: "dotenv@npm:16.3.1"
-  checksum: 15d75e7279018f4bafd0ee9706593dd14455ddb71b3bcba9c52574460b7ccaf67d5cf8b2c08a5af1a9da6db36c956a04a1192b101ee102a3e0cf8817bbcf3dfd
+"dotenv@npm:16.4.4":
+  version: 16.4.4
+  resolution: "dotenv@npm:16.4.4"
+  checksum: fbe0355972634d8843e1804115885e94d70618cfc975eadca67e26b2d71eb46f0ed45c12c2b88fd88cd6b1476a151471227b13311127a3504d10060cc74ce2f7
   languageName: node
   linkType: hard
 
@@ -4313,7 +4313,7 @@ __metadata:
     "@babel/core": 7.23.7
     "@babel/preset-env": 7.23.8
     babel-eslint: 10.1.0
-    dotenv: 16.3.1
+    dotenv: 16.4.4
     eslint: 8.56.0
     eslint-config-prettier: 9.0.0
     eslint-plugin-prettier: 5.1.3
